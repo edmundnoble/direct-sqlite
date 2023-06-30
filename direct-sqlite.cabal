@@ -91,6 +91,7 @@ library
 
     if flag(mathfunctions)
       cc-options: -DSQLITE_ENABLE_MATH_FUNCTIONS
+    cc-options: -g
 
 test-suite test
   type:               exitcode-stdio-1.0
